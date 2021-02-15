@@ -20,13 +20,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
 body {
   margin: 0;
   text-decoration: none;
@@ -38,6 +31,17 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+ul {
+  list-style: none;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
 
 /**
  * Render the `main` element consistently in IE.
@@ -156,6 +160,9 @@ sup {
 
 img {
   border-style: none;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Forms

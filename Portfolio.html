@@ -13,91 +13,135 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Web Studio (Version 2.1)</title>
 </head>
-
 <body>
     <header class="header">
-        <nav>
-            <!-- логотип сайта -->
-            <a class="logo" href="./index.html"><span class="web-logo">Web</span><span
-                class="studio-logo">Studio</span></a>
-            <ul>
-                <li><a class="nav-li" href="./index.html">Студия</a></li>
-                <li><a class="nav-li" href="./Portfolio.html">Портфолио</a></li>
-                <li><a class="nav-li" href="#">Контакты</a></li>
+        <div class="container header-logo">
+            <nav class="header-nav">
+                <!-- логотип сайта -->
+                <a class="logo" href="./index.html"><span class="web-logo">Web</span><span
+                        class="studio-logo">Studio</span></a>
+                <ul class="nav-list">
+                    <li><a class="nav-li" href="./index.html">Студия</a></li>
+                    <li><a class="nav-li prf" href="./Portfolio.html">Портфолио</a></li>
+                    <li><a class="nav-li" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="communication-list">
+                <li><a class="communication" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="communication" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a class="communication" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li><a class="communication" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section>
-            <ul>
-                <li><button class="filtress-button" type="button">Все</button></li>
-                <li><button class="filtress-button" type="button">Веб-сайты</button></li>
-                <li><button class="filtress-button" type="button">Приложения</button></li>
-                <li><button class="filtress-button" type="button">Дизайн</button></li>
-                <li><button class="filtress-button" type="button">Маркетинг</button></li>
-            </ul>
-            <ul>
-                <li class="portfolio-items">
-                    <img src="./images/technokriak.jpg" alt="Технокряк" width="370">
-                    <p class="appoint">Технокряк</p>
-                    <p class="appoint-resurses">Веб-сайт</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/poster New orlean.jpg" alt="Nev Orlean vs Golden Star" width="370">
-                    <p class="appoint">Постер Nev Orlean vs Golden Star</p>
-                    <p class="appoint-resurses">Дизайн</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/restautant seafood.jpg" alt="Ресторан seafood" width="370">
-                    <p class="appoint">Ресторан Seafood</p>
-                    <p class="appoint-resurses">Приложение</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/prime.jpg" alt="Проект Prime" width="370">
-                    <p class="appoint">Проект Prime</p>
-                    <p class="appoint-resurses">Маркетинг</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/boxes.jpg" alt="Проект Boxes" width="370">
-                    <p class="appoint">Проект Boxes</p>
-                    <p class="appoint-resurses">Приложение</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/inspiration.jpg" alt="Inspiration has no Borders" width="370">
-                    <p class="appoint">Inspiration has no Borders</p>
-                    <p class="appoint-resurses">Веб-сайт</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/limited edition.jpg" alt="Издание Limited Edition" width="370">
-                    <p class="appoint">Limited Edition</p>
-                    <p class="appoint-resurses">Дизайн</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/pj LAB.jpg" alt="Проект LAB" width="370">
-                    <p class="appoint">Проект LAB</p>
-                    <p class="appoint-resurses">Маркетинг</p>
-                </li>
-                <li class="portfolio-items">
-                    <img src="./images/growing Business.jpg" alt="Growing Business" width="370">
-                    <p class="appoint">Growing Business</p>
-                    <p class="appoint-resurses">Приложение</p>
-                </li>
-            </ul>
+        <section class="container">
+            <div class="prtf">
+                <ul class="filtress">
+                    <li><button class="filtress-button" type="button">Все</button></li>
+                    <li><button class="filtress-button btn-web" type="button">Веб-сайты</button></li>
+                    <li><button class="filtress-button" type="button">Приложения</button></li>
+                    <li><button class="filtress-button" type="button">Дизайн</button></li>
+                    <li><button class="filtress-button" type="button">Маркетинг</button></li>
+                </ul>
+                <div class="cont-card">
+                    <ul class="prtf-card-set">
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                                <img src="./images/technokriak.jpg" alt="Технокряк" width="370">
+                                <div>
+                                    <p class="appoint">Технокряк</p>
+                                    <p class="appoint-resurses">Веб-сайт</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/poster New orlean.jpg" alt="Nev Orlean vs Golden Star" width="370">
+                            <div>
+                                <p class="appoint">Постер Nev Orlean vs Golden Star</p>
+                                <p class="appoint-resurses">Дизайн</p>
+                            </div>
+                            </article>
+                        </li>
+                        
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/restautant seafood.jpg" alt="Ресторан seafood" width="370">
+                            <div>
+                                <p class="appoint">Ресторан Seafood</p>
+                                <p class="appoint-resurses">Приложение</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/prime.jpg" alt="Проект Prime" width="370">
+                            <div>
+                                <p class="appoint">Проект Prime</p>
+                                <p class="appoint-resurses">Маркетинг</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/boxes.jpg" alt="Проект Boxes" width="370">
+                            <div>
+                                <p class="appoint">Проект Boxes</p>
+                                <p class="appoint-resurses">Приложение</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/inspiration.jpg" alt="Inspiration has no Borders" width="370">
+                            <div>
+                                <p class="appoint">Inspiration has no Borders</p>
+                                <p class="appoint-resurses">Веб-сайт</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/limited edition.jpg" alt="Издание Limited Edition" width="370">
+                            <div>
+                                <p class="appoint">Limited Edition</p>
+                                <p class="appoint-resurses">Дизайн</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/pj LAB.jpg" alt="Проект LAB" width="370">
+                            <div>
+                                <p class="appoint">Проект LAB</p>
+                                <p class="appoint-resurses">Маркетинг</p>
+                            </div>
+                            </article>
+                        </li>
+                        <li class="prtf-item">
+                            <article class="cards-prtf">
+                            <img src="./images/growing Business.jpg" alt="Growing Business" width="370">
+                            <div>
+                                <p class="appoint">Growing Business</p>
+                                <p class="appoint-resurses">Приложение</p>
+                            </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <!-- Логотип сайта футер -->
-        <a class="logo" href="./Portfolio.html"><span class="web-logo">Web</span><span
-                class="studio-logo-footer">Studio</span></a>
-        <address class="address">
-            <a class="addresses" href="#" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></br>
-            <a class="communication-footer" href="info@example.com">info@example.com</a></br>
-            <a class="communication-footer" href="tel:+380991111111">+38 099 111 11 11</a></br>
-        </address>
+        <div class="container">
+            <a class="logo" href="./Portfolio.html"><span class="web-logo">Web</span><span
+                    class="studio-logo-footer">Studio</span></a>
+            <address class="address">
+                <a class="addresses" href="#" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="communication-footer f-email" href="info@example.com">info@example.com</a>
+                <a class="communication-footer f-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
+        </div>
     </footer>
 </body>
 
