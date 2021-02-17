@@ -24,7 +24,6 @@
 }
 
 .container {
-  /*   outline: 2px solid red; */
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -47,20 +46,23 @@
   border-radius: 4px;
 }
 
+.section {
+  padding-bottom: 94px;
+}
+
 .header {
   border: 1px solid var(--border-color);
 }
 
 .header-logo {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: 24px 94px 25px 0;
 }
 
 .web-logo {
@@ -100,7 +102,7 @@
   width: 307px;
   align-items: center;
   justify-content: space-between;
-  margin: 0 0 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -121,21 +123,22 @@
 }
 
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-color: #2f303a;
+  padding: 200px 452px;
 }
 
 .main-sections-text {
   display: flex;
+  text-align: center;
   width: 664px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
-  margin: 0 auto 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
 }
 
 .main-button {
@@ -150,7 +153,6 @@
 
 .apps {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .apps-list {
@@ -181,13 +183,14 @@
 }
 
 .are-we-doing {
-  display: flex;
   color: var(--nav-color);
+  display: flex;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.6;
   justify-content: center;
-  margin: 0 0 50px 0;
+  margin: 0;
+  margin-bottom: 50px;
   padding: 0;
 }
 
@@ -196,7 +199,6 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
-  padding-bottom: 94px;
 }
 
 .team-title {
@@ -206,14 +208,14 @@
   font-size: 36px;
   line-height: 1.6;
   justify-content: center;
-  margin: 0 0 50px 0;
-  padding-top: 94px;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 94px 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -241,6 +243,8 @@
 
 footer {
   background-color: var(--bg-color);
+  padding: 60px 0;
+  margin: 0;
 }
 
 .footer .studio-logo-footer {
@@ -248,6 +252,11 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
+}
+
+.logo-footer {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .studio-logo-footer {
@@ -266,58 +275,47 @@ footer {
 
 .address {
   display: flex;
-  width: 231px;
   flex-direction: column;
-  margin-bottom: 9px;
+  align-content: space-between;
 }
 
 .addresses {
   color: var(--color-white);
   font-size: 14px;
   line-height: 1.7;
-  justify-content: space-between;
-  margin-bottom: 9px;
 }
 
-.f-email,
-.f-tel {
-  margin-bottom: 9px;
+.f-email {
+  margin: 9px 0;
 }
 
 /* Portfolio */
 
-.prtf {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section-prtf {
+  padding: 94px 15px;
 }
 
 .filtress {
   display: flex;
   justify-content: space-between;
-  margin: 0 280px;
+  margin: 0 auto;
   padding: 0;
   padding-bottom: 16px;
+  width: 611px;
 }
 
 .filtress-button {
   color: var(--nav-color);
+  background-color: var(--btn-bg-color);
   font-family: inherit;
-  text-decoration: none;
+  display: flex;
   border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  margin-right: 8px;
   padding: 6px 22px;
   border-radius: 4px;
-  background-color: var(--btn-bg-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-web {
-  width: 128px;
+  justify-content: space-between;
 }
 
 .filtress-button:focus,
@@ -348,13 +346,13 @@ footer {
   margin: 30px 0 0 30px;
 }
 
-.prtf-item > div {
+.cont-appoint {
   padding: 20px 24px;
 }
 
 .appoint {
-  font-weight: 700;
   color: var(--nav-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   margin: 0;
