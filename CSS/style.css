@@ -25,6 +25,29 @@ h4 {
   margin: 0;
 }
 
+body {
+  text-decoration: none;
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
 .nav-li.std,
 .nav-li.prf,
 .nav-li.cnt {
@@ -150,7 +173,6 @@ h4 {
 .main-button {
   font-weight: 900;
   line-height: 1.8;
-  font-family: inherit;
   margin: 0 auto;
 }
 
