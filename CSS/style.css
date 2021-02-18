@@ -158,6 +158,10 @@ h4 {
   margin: 0 auto;
 }
 
+.apps {
+  padding-top: 94px;
+}
+
 .apps-list {
   display: flex;
   justify-content: space-between;
