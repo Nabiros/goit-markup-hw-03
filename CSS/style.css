@@ -17,6 +17,14 @@
   display: flex;
 }
 
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
 .nav-li.std,
 .nav-li.prf,
 .nav-li.cnt {
@@ -47,6 +55,7 @@
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -124,21 +133,19 @@
 
 .hero {
   background-color: #2f303a;
-  padding: 200px 452px;
+  padding: 200px 0;
+  text-align: center;
 }
 
 .main-sections-text {
-  display: flex;
   text-align: center;
-  width: 664px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 30px;
-  padding: 0;
 }
 
 .main-button {
@@ -149,10 +156,6 @@
   line-height: 1.8;
   font-family: inherit;
   margin: 0 auto;
-}
-
-.apps {
-  padding-top: 94px;
 }
 
 .apps-list {
@@ -290,10 +293,6 @@ footer {
 }
 
 /* Portfolio */
-
-.section-prtf {
-  padding: 94px 15px;
-}
 
 .filtress {
   display: flex;
